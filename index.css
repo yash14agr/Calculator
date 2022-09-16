@@ -1,0 +1,52 @@
+.container{
+    border: 2px solid red;
+    margin-left: 35%;
+    margin-right: 32.6%;
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    grid-template-rows:minmax(100px,auto) repeat(6,80px);
+    border: 2px solid grey;
+    background-color: black;
+}
+
+.screen{
+    /* padding: 5px; */
+    grid-column: 1/-1;
+    background-color: rgb(34, 32, 32);
+    /* color: white;
+    -webkit-appearance: none;
+    border-color: transparent; */
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    /* font-size: 3vw; */
+}
+
+.screen-color{
+    background-color: rgb(34, 32, 32);
+    color: white;
+    -webkit-appearance: none;
+    border-color: transparent;
+    width: 30vw;
+    font-size:2.5vw ;
+    height: 2vw;
+}
+
+
+button{
+    cursor: pointer;
+    background-color: rgb(18, 17, 17);
+    border-radius: 50%;
+    margin: 5px;
+    color: lightskyblue;
+    font-size: 2vw;
+}
+button:hover{
+    background-color:rgb(60, 58, 58) ;
+}
+.blue{
+    color: lightskyblue;
+    font-size: 2vw;
+    background-color: rgb(4, 4, 91);
+}
